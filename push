@@ -1,0 +1,4 @@
+git remote set-url origin \
+    https://github.com/BCFZzw/git-workshop-2017
+git fetch
+git push origin master
