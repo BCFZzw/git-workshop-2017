@@ -1,0 +1,57 @@
+\documentclass{beamer}
+
+\usepackage[utf8]{inputenc}
+
+\author{Jacob Thomas Errington}
+\title{
+    git\\
+    the stupid content tracker
+}
+\institute{McGill University}
+\date{22 March 2017}
+
+\usepackage{listings}
+\usepackage{amsmath,amssymb,amsthm}
+\usepackage{tikz}
+\usepackage{hyperref}
+
+%%%%% LISTINGS
+
+\lstset{basicstyle=\ttfamily}
+
+%%%%% TIKZ
+
+\usetikzlibrary{arrows,shapes,graphs,calc}
+
+\tikzstyle{every picture}+=[remember picture]
+\tikzset{
+    ampersand replacement=\&,
+    >=stealth',
+    shorten >=1pt,
+    commit/.style={
+        draw=black,
+        circle,
+        minimum size=3em,
+    },
+    rootcommit/.style={
+        label=below:{root commit},
+    },
+    branch/.style={},
+    branch'/.style={
+        draw=blue,
+    },
+}
+
+%%%%% FONTS
+
+\everymath{\displaystyle}
+\usefonttheme{serif}
+
+%%%%% MISC
+
+\newcommand{\HEAD}{\texttt{HEAD}}
+\newcommand{\protip}[1]{(\textbf{Protip:} #1)}
+
+\begin{document}
+
+\end{document}
